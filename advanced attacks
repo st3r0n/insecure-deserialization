@@ -1,1 +1,8 @@
+gadget are codes that are present in application
+one gadget can not do harm but if we can chain them together we can exploit a wide range of exploits
 
+eg --> ysoserial tools for java deserilization
+phpggc for php deserialization 
+
+
+working with documneted explits-----> using documengtation to get idea how we can exploit it
