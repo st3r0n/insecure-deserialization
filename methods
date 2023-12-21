@@ -7,4 +7,8 @@ O:4:"User":2:{s:4:"name":s:6:"carlos"; s:10:"isLoggedIn":b:1;}
 
 look for code such as serialize and unserialize
 
+++++++++++++++++++++++++++++++++++++++++++++++++JAVA+++++++++++++++++++++++++++++++
+java serializez to buyte streams which may start with ac ed in hexadecimal and rO0 in Base64. 
+functions used ----> java.io.Serializable , readObject() , InputStream
+
 
