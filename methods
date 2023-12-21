@@ -1,1 +1,10 @@
+##########################PHP###############################################
+$user->name = "carlos";
+$user->isLoggedIn = true;     # deserialized
+
+when serialized it looks like 
+O:4:"User":2:{s:4:"name":s:6:"carlos"; s:10:"isLoggedIn":b:1;}
+
+look for code such as serialize and unserialize
+
 
