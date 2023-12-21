@@ -7,8 +7,19 @@ O:4:"User":2:{s:4:"name":s:6:"carlos"; s:10:"isLoggedIn":b:1;}
 
 look for code such as serialize and unserialize
 
+modifying data types
+if == is used in php 5=="5" evalutaed to be true also 5=="5 of soomething" is true
+in short if anything starts with 5 becomes true
+
+0 == "Example string" // true
+
 ++++++++++++++++++++++++++++++++++++++++++++++++JAVA+++++++++++++++++++++++++++++++
 java serializez to buyte streams which may start with ac ed in hexadecimal and rO0 in Base64. 
 functions used ----> java.io.Serializable , readObject() , InputStream
 
+you can modu=ify the serialized data directly or using an script
+LAB1: just modu=ify the base 64 encoded cookie and changealue of isAdmini to 1
+LAB 2 : use of data types in php to change token value to 0 so it evaluates to true # dont forget to change data type of token 
+
+$$$$$$$ when you modify an object u need to hcange its data type too to the new onject data type
 
