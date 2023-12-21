@@ -23,3 +23,21 @@ LAB 2 : use of data types in php to change token value to 0 so it evaluates to t
 
 $$$$$$$ when you modify an object u need to hcange its data type too to the new onject data type
 
+------------------USING APPLICATION FUNCTIONALITY----------------------------
+we can use apllications functionality to do insecure task like deltinga file
+eg. when delting an account the user avatar may be deleted so we can look at cookie for any modifiable values
+
+
+
+MAGIC METHODS
+invoked automatically when an onbject is created like constructors
+eg __init__ etc anything that starts with double underscore
+if user controllable data can modify magic methods we can create our own methods a
+
+
+
+INJECTING ARBITRARY OBJECTS
+study the server side language and construct payload based on it 
+if we have source code we can construct whatever we want
+
+
